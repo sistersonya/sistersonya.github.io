@@ -1,5 +1,5 @@
 body {
-    font-size: 18px;
+    font: 18px Arial, sans-serif;
     line-height: 1.5;
 }
 
@@ -22,6 +22,7 @@ main,
 footer {
     margin: 1.25rem auto;
     max-width: 760px;
+    
 }
 
 header {
