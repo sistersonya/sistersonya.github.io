@@ -1,0 +1,30 @@
+@media only screen and (min-width: 61em) {
+    /* @media only screen and (min-width: 51em) and (max-width: 100em){ */
+  
+    body {
+      font-size: 16px;
+    }
+  
+    table {
+      font-size: 0.7em;
+    }
+  
+    .gridArea {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  
+    .gridArea section:nth-child(3) {
+      grid-area: 1/3/1/4;
+      margin: 0.25rem;
+    }
+  
+    header {
+      border-radius: 0 0 20px 20px;
+    }
+  
+    footer {
+      font-size: 0.9em;
+      border-radius: 20px 20px 0 0;
+    }
+  }
+  

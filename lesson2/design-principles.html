@@ -1,39 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Sofia Aleinikova</title>
-    <meta name="description" content="Assignment portal for Sofia Aleinikova in WDD 230: Web 
-                                      Frontend Development at Brigham Young University - Idaho">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
-    <link href="./css/main.css" rel="stylesheet">
-</head>
-
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--<meta http-equiv="X-UA-Compatible" content="ie=edge" />-->
+    <meta name="description" content="W02 Assignment: Design Principles Document"/>
+    <link rel="stylesheet" href="/css/normalize.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Secular+One&display=swap">
+    <link rel="stylesheet" href="./css/small.css" />
+    <link rel="stylesheet" href="./css/medium.css" />
+    <link rel="stylesheet" href="./css/large.css"/>
+    <title>Design Principles</title>
+  </head>
+  <body>
     <header>
-        <img src="./images/sonya copy.jpeg" alt="Sofia">
-        <h1> Sofia Aleinikova</h1> 
+      <h1>Design Principles Examples</h1>
+      <h2>by Sofia Aleinikova</h2>
     </header>
-    <h2> WDD 230: Assignment Portal</h2>
-    <nav>
-        <ul>
-            <li>Lesson 02: <a href="Lesson2">Assignment Link</a></li>
-            <li>Lesson 03: <a href="Lesson3">Assignment Link</a></li>
-            <li>Lesson 04: <a href="Lesson4">Link</a> | <a href="services">Link</a></li>
-        </ul>
-    </nav>
+    <main class="gridArea">
+      <section class="txtBox">
+        <h3>Fitt's Law</h3>
+        <table>
+          <tr>
+            <th>Item</th>
+            <th>Description</th>
+          </tr>
+          <tr>
+            <td class="t">Company</td>
+            <td>2F COSRX, Inc</td>
+          </tr>
+          <tr>
+            <td class="t">Website</td>
+            <td>
+              <a href="https://www.cosrx.com/">cosrx.com</a>
+            </td>
+          </tr>
+        </table>
+        <img src="./images/image1.png" alt="COSRX Website" />
+        <p>
+          According to a Fitts' law the bigger an object and the closer it is to us, 
+          the easier it is to move to. I found that invitation to chat with an agent 
+          at the bottom of the page is a great call to action. 
+        </p>
+      </section>
+      <section class="txtBox">
+        <h3>Visual Hierarchy</h3>
+        <table>
+          <tr>
+            <th>Item</th>
+            <th>Description</th>
+          </tr>
+          <tr>
+            <td class="t">Company</td>
+            <td>Tesla, Inc</td>
+          </tr>
+          <tr>
+            <td class="t">Website</td>
+            <td>
+              <a href="https://www.tesla.com/">tesla.com</a>
+            </td>
+          </tr>
+        </table>
+        <img src="./images/image2.png" alt="Tesla Website" />
+        <p>
+            You can visually rank the objects on that picture. The first thing that draws 
+            attention is the image of the car, the next thing is the name of the tesla model. 
+            The third object is a button to "custom order" and another one is to "learn more". 
+            We also can see the differences in the colors of these buttons. 
+        </p>
+      </section>
+      <section class="txtBox">
+        <h3>Hick's Law</h3>
+        <table>
+          <tr>
+            <th>Item</th>
+            <th>Description</th>
+          </tr>
+          <tr>
+            <td class="t">Company</td>
+            <td>Kaggle, Inc</td>
+          </tr>
+          <tr>
+            <td class="t">Website</td>
+            <td>
+              <a href="https://www.kaggle.com/">kaggle.com</a>
+            </td>
+          </tr>
+        </table>
+        <img src="./images/image3.png" alt="Kaggle Website" />
+        <p>
+            Kaggle offers a huge repository of community published data and code. 
+            You can find the dataset of your interest by using their filter which 
+            very easy to find. Because of that option, it will much easier to 
+            navigate and find whatever you are interested in. 
+        </p>
+      </section>
+    </main>
     <footer>
-        &copy; 2020 | Sofia Aleinikova | Utah | <a href="https://www.byui.edu/online" target="_blank">BYUI Online
-            Learning</a> <br>
-        <div>
-            <script src="./js/lastupdated.js"></script>
-        </div>
-
+        <p>
+            &copy; <span id = "year"></span> 
+        | Sofia Aleinikova | Utah | <a href="https://www.byui.edu/online" target="_blank">
+            BYUI Online Learning</a>
+        </p>
+        <p>
+            <small><span id = "lastUpdated"></span></small>
+        </p>
     </footer>
-
+    <script src="../js/year.js"></script>
+    <script src="../js/lastupdated.js"></script>
 </body>
-
 </html>
