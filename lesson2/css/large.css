@@ -1,10 +1,6 @@
 @media only screen and (min-width: 61em) {
     /* @media only screen and (min-width: 51em) and (max-width: 100em){ */
-  
-    body {
-      font-size: 16px;
-    }
-  
+
     table {
       font-size: 0.7em;
     }
@@ -23,7 +19,6 @@
     }
   
     footer {
-      font-size: 0.9em;
       border-radius: 20px 20px 0 0;
     }
   }
