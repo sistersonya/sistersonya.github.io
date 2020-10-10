@@ -2,7 +2,7 @@
 /* bluegrey matter   #637f80 light  #536872  #708090  #536878  #36454f dark */
 body {
 	font-size: 16px;
-	font-family: "Sansita", Ubuntu, sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 
 /* phone or baseline views **************************/
@@ -25,11 +25,11 @@ footer {
 }
 h1 {
     font-size: 2rem;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Aclonica', sans-serif;
 }
 h2 {
     color: #536878;
-    font-family: 'Poppins', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 
 nav {
@@ -60,6 +60,7 @@ nav a:hover {
 }
 main {
 	display: flex;
+	flex-direction: column;
 	grid-template-columns: 1fr;
 	font-size: 0.8rem;
 	
@@ -70,7 +71,7 @@ main article {
     padding: 0 1.5rem;
     padding-bottom: 1rem;
     background-color: #eee;
-    width: 100%;
+    width: auto;
     height: 100%;
 }
 table {
@@ -92,7 +93,9 @@ img {
 
 footer {
 	flex: 0 1 100%;
-    height: 3rem;
+	height: 3rem;
+	font-size: small;
+	text-align: center;
 }
 
 

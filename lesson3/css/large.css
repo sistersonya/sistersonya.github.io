@@ -4,6 +4,10 @@
 	}
 	main {
 		grid-template-columns: 1fr 1fr 1fr;
+		flex-direction: row;
+	}
+	main article { 
+		width: 100%;
 	}
 	article:nth-child(3) {
 		grid-column: span 1;
