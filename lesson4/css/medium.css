@@ -1,0 +1,44 @@
+@media only screen and (min-width: 30.5em) {
+    .navigation {
+      display: flex;
+      font-size: 1.25em;
+    }
+    .navigation li {
+      display: block; /* change state in small view */
+      flex: 1 1 auto;
+    }
+    .navigation a {
+      text-align: center;
+    }
+    .navigation li:first-child {
+      display: none;
+    }
+  
+    header {
+      font-size: 1.35em;
+    }
+  
+    header img {
+      width: 75px;
+      height: auto;
+    }
+  
+    .headings h1 {
+      margin: 0 0 0 30px;
+    }
+  
+    .motto {
+      letter-spacing: 1.5pt;
+      margin-left: 37.5px;
+      font-size: .9rem;
+    }
+  
+    main {
+      font-size: 1.2em;
+    }
+  
+    footer {
+      font-size: 1em;
+    }
+  }
+  

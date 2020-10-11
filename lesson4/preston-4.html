@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>WEATHER.GO</title>
+    <meta
+      name="description"
+      content="The Weather Site Project by Sofia
+    Aleinikova Fall 2020 WDD 230 Web Frontend Development"
+    />
+    <!-- https://byui.instructure.com/courses/98418/pages/the-weather-site-project?module_item_id=10581160 -->
+    <link href="/css/normalize.css" rel="stylesheet" />
+    <link href="./css/small.css" rel="stylesheet" />
+    <link href="./css/medium.css" rel="stylesheet" />
+    <link href="./css/large.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Roboto&display=swap" rel="stylesheet" >
+    <!-- page example: https://video.byui.edu/media/t/0_ycu68rcu -->
+  </head>
+  <body>
+    <header>
+      <picture
+        ><img src="/lesson4/images/image_logo1.png" alt="logo"
+      /></picture>
+      <section class="headings">
+        <h1>WEATHER.GO</h1>
+        <div class="motto">Get Ready For a New Day. </div>
+      </section>
+    </header>
+    <!-- header example: https://video.byui.edu/media/t/0_ijk7nwi8 
+    https://codepen.io/blazzard-jason/pen/RXxNOZ-->
+    <nav>
+      <ul class="navigation">
+        <li class="menu"><a class="hamburger" href="#">&#9776;</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="preston-4.html">Preston</a></li>
+        <li><a href="#">Soda Springs</a></li>
+        <li><a href="#">Fish Haven</a></li>
+        <li><a href="#">Storm Center</a></li>
+        <li><a href="#">Gallery</a></li>
+      </ul>
+    </nav>
+    <main>
+      <div class="container">
+        <h2>Preston</h2>
+        <div><h3>Weather Summary & hero image</h3></div>
+        <div><h3>Article Title by author & image</h3></div>
+        <div><h3>Contact Information and map</h3></div>
+      </div>
+    </main>
+    <footer>
+        <p>
+        &copy; <span id = "year"></span> 
+        | WEATHER.GO | Utah | <a href="https://www.byui.edu/online" target="_blank">BYUI Online
+            Learning</a>
+            <span id = "lastUpdated"></span>
+        </p>
+    </footer>
+    <script src="../js/year.js"></script>
+    <script src="../js/lastupdated.js"></script>
+    <script src="./js/nav.js" ></script>
+ </body>
+</html>

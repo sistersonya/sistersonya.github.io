@@ -1,0 +1,14 @@
+@media only screen and (min-width: 61em) {
+    .navigation {
+        font-size: 1.35em;
+      }
+
+    header img {
+        width: 100px;
+        height: auto;
+      }
+      
+    main {
+        font-size: 1.3em;
+      }
+}
