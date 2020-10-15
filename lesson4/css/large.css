@@ -10,5 +10,9 @@
       
     main {
         font-size: 1.3em;
+        max-width: 960px;
       }
+    footer {
+      max-width: 1000px;
+    }
 }
