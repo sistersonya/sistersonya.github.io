@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>WEATHER.GO</title>
+    <meta name="description" content="The Weather Site Project by Sofia
+    Aleinikova Fall 2020 WDD 230 Web Frontend Development"/>
+    <link rel="shortcut icon" href="./images/favicon.ico"> 
+    <link href="/css/normalize.css" rel="stylesheet" />
+    <link href="./css/small.css" rel="stylesheet" />
+    <link href="./css/medium.css" rel="stylesheet" />
+    <link href="./css/large.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Roboto&display=swap" rel="stylesheet" >
+    <!-- page example: https://video.byui.edu/media/t/0_ycu68rcu -->
+  </head>
+  <body>
+    <header>
+      <picture
+        ><img src="/lesson4/images/image_logo1.png" alt="logo"
+      /></picture>
+      <section class="headings">
+        <h1>WEATHER.GO</h1>
+        <div class="motto">Get Ready For a New Day. </div>
+      </section>
+    </header>
+    <!-- header example: https://video.byui.edu/media/t/0_ijk7nwi8 
+    https://codepen.io/blazzard-jason/pen/RXxNOZ-->
+    <nav>
+      <ul class="navigation">
+        <li class="menu"><a class="hamburger" href="#">&#9776; Menu</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a class="active" href="preston-5.html">Preston</a></li>
+        <li><a href="#">Soda Springs</a></li>
+        <li><a href="#">Fish Haven</a></li>
+        <li><a href="#">Storm Center</a></li>
+        <li><a href="#">Gallery</a></li>
+      </ul>
+    </nav>
+    <main>
+      <!--Banner-->
+      <div class="banner"><h4>"Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion." </h4></div>
+      <h1>Preston Idaho</h1>
+        <div class="herodiv">
+          <img src="images/image1.jpg" alt="hero image">
+          <section class="stats">
+            <h2>Weather Summary</h2>
+            <p>Currently: <span id="now">Sunny</span></p>
+            <p>High: <span id="high">76 &#x2109;</span></p>
+            <p>Wind Chill: <span id="wind">&#x2109;</span></p>
+            <p>Humidity: <span id="hum">69%</span></p>
+            <p>Wind Speed: <span id="speed">5 mph</span></p>
+          </section>
+        </div>
+        <div class="forecast">
+          <h2>5-Day Forecast</h2>
+          <table class="tableF">
+            <tr>
+              <th>Wed</th>
+              <th>Thu</th>
+              <th>Fri</th>
+              <th>Sat</th>
+              <th>Sun</th>
+            </tr>
+            <tr>
+              <td><img src="images/weather1.png" alt="weather icon">
+              70&#x2109;</td>
+              <td><img src="images/weather2.png" alt="weather icon">
+              69&#x2109;</td>
+              <td><img src="images/weather3.png" alt="weather icon">
+              65&#x2109;</td>
+              <td><img src="images/weather1.png" alt="weather icon">
+              72&#x2109;</td>
+              <td><img src="images/weather2.png" alt="weather icon">
+              73&#x2109;</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="article">
+          <h2>Founders Day Fresco</h2>
+          <h4>Auhtor name</h4>
+          <img src="./images/image2.jpg" alt="Idaho nature">
+          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mollis mollis hendrerit. 
+            Donec auctor commodo magna, eget varius dui eleifend at. Quisque tellus ex, tempus vel auctor non, 
+            laoreet sed sem. Duis vel justo placerat, ultricies tellus vitae, aliquet leo. Aenean eu pharetra nisl. 
+            Aliquam sed tristique lorem, sit amet fringilla ipsum. Proin lacus massa, tempus et porttitor et, vehicula et orci.
+          <br>
+            Vivamus at bibendum lorem. Mauris rutrum tincidunt turpis vel hendrerit. Nam congue pulvinar libero. 
+            Nam vitae elit eget lacus lacinia vestibulum et id felis. In ac ligula quis nisi interdum molestie. 
+            Curabitur aliquet mi eget bibendum placerat. Nunc non tellus non est facilisis laoreet ac vitae sapien. 
+            Donec lobortis purus massa, vel tempus nisi efficitur at. Phasellus tortor risus, imperdiet ut libero a, 
+            venenatis pharetra diam. Sed placerat condimentum volutpat. Suspendisse interdum at felis a dapibus. 
+            Ut vitae fermentum felis, vehicula porta metus. Sed placerat condimentum volutpat. Suspendisse interdum at felis 
+            a dapibus. Ut vitae fermentum felis, vehicula porta metus.
+          </p>
+        </div>
+
+        <div class="contact">
+          <div class="contactInfo"><h2>Contact Information</h2>
+           <img src="./images/map.png" alt="Map of Idaho Locations">
+           </div>  
+           <div class="contactText">
+             <p> 
+             WEATHER.GO <br>
+             30 N 1st E Preston, ID 83263<br> 
+             &#9742; 999.999.9999<br> 
+             &#9993; weathergo@icloud.com<br>
+             </p><br>
+            <a href = "https://www.facebook.com">
+            <img src= "./images/sFacebook.png" alt="Facebook Icon"></a>
+            <a href = "https://www.pintrest.com">
+            <img src= "./images/sPinterest.png" alt="Pintrest Icon"></a>
+            <a href = "https://www.twitter.com">
+            <img src= "./images/sTwitter.png" alt="Twitter Icon"></a>
+            <a href = "https://www.whatsapp.com">
+            <img src= "./images/sWhatsapp.png" alt="WhatsApp Icon"></a>
+          </div>
+        </div>
+      </main>
+    <footer>
+        <p>
+        &copy; WEATHER.GO | Sofia Aleinikova <br/>
+            <span id = "lastUpdated"></span>
+        </p>
+    </footer>
+    <script src="./js/currentDate.js"></script>
+    <script src="./js/nav.js" ></script>
+    <script src="./js/banner.js" ></script>
+ </body>
+</html>
