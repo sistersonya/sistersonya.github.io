@@ -126,7 +126,7 @@ main img {
 .weatherSummary h3 {
   border-bottom-style: solid;
   border-bottom-width: 1px;
-  margin: 1 0 0 0;
+  margin: 5px 0px 15px 0px;
 }
   
 .stats tr td:nth-child(1) {
