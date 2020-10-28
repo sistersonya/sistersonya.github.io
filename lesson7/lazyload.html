@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>
+      Sofia Aleinikova | WDD 230 W07 Activity: Progressive Loading of Images
+    </title>
+    <meta
+      name="description"
+      content="We should be able to show at least the
+    basic view of the page, with placeholders in the places more content will
+    eventually be loaded."
+    />
+    <!-- <link rel="stylesheet" href="../css/normalize.css" /> -->
+    <link href="./smallLazyLoad.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1>Progressive Loading (Images)</h1>
+    <picture> 
+        <img src="./images/placeholder-300x400.png" data-src="https://picsum.photos/300/400"
+             alt="first example image of the place holder"/> <br/> 
+    </picture>
+    <picture>
+        <img src="./images/placeholder-300x400.png" data-src="https://picsum.photos/300/400"
+             alt="second example image of the place holder"/><br/>
+    </picture>
+    <picture> 
+        <img src="./images/placeholder-300x400.png" data-src="https://picsum.photos/300/400"
+             alt="third example image of the place holder"/> <br/> 
+    </picture>
+    <picture> 
+        <img src="./images/placeholder-300x400.png" data-src="https://picsum.photos/300/400"
+             alt="fourth example image of the place holder"/> <br/> 
+    </picture>
+    <picture> 
+        <img src="./images/placeholder-300x400.png" data-src="https://picsum.photos/300/400"
+             alt="fifth example image of the place holder"/> <br/> 
+    </picture>
+    <picture> 
+        <img src="./images/placeholder-300x400.png" data-src="https://picsum.photos/300/400"
+             alt="sixth example image of the place holder"/> <br/> 
+    </picture>
+    <script src="./lazyLoad.js"></script>
+  </body>
+</html>
