@@ -27,7 +27,11 @@
       font-size: 1.2em;
       max-width: 800px;
     }
-  
+
+    .article img {
+      float: right;
+    }
+      
     footer {
       font-size: 1em;
     }

@@ -156,16 +156,16 @@ table {
 }
 
 .article img {
-  float: right;
   max-width: 100%;
-  height: 400px;
-  padding: 5px;
-  margin: 0px 5px 10px 10px;
+  height: auto;
+  margin: 0px 5px 5px 15px;
 }
   
-
 .contact {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: flex-end;
   max-width: 100%;
   height: auto;
   background-color: #eee;
@@ -177,7 +177,7 @@ table {
 }
 .contactText {
   flex-direction: column;
-  margin: 150px 0px 10px 30px;
+  padding: 30px;
 }
 .contactInfo img {
   max-width: 100%;
