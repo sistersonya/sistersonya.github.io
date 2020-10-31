@@ -1,0 +1,31 @@
+@media only screen and (min-width: 30.5em) {
+    header {
+        font-size: 1.35em;
+      }
+    
+    header img {
+        width: 75px;
+        height: auto;
+      }
+    
+    .headings h1 {
+        margin: 0 0 0 30px;
+      }
+    
+    .motto {
+        letter-spacing: 1.5pt;
+        margin-left: 37.5px;
+        font-size: .9rem;
+      }
+
+    .navigation {
+      display: block;
+      font-size: 1.25em;
+    }
+
+
+    footer {
+      font-size: 1em;
+    }
+  }
+  

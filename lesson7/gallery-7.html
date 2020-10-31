@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>WEATHER.GO</title>
+    <meta name="description" content="The Weather Site Project by Sofia
+    Aleinikova Fall 2020 WDD 230 Web Frontend Development"/>
+    <link rel="shortcut icon" href="./images/favicon.ico"> 
+    <link href="/css/normalize.css" rel="stylesheet" />
+    <link href="./css/small.css" rel="stylesheet" />
+    <link href="./css/medium.css" rel="stylesheet" />
+    <link href="./css/large.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Roboto&display=swap" rel="stylesheet" >
+  </head>
+  <body>
+    <header>
+      <picture>
+          <img src="/lesson4/images/image_logo1.png" alt="logo"/>
+      </picture>
+      <section class="headings">
+        <h1>WEATHER.GO</h1>
+        <div class="motto">Get Ready For a New Day. </div>
+      </section>
+    </header>
+    <nav>
+      <ul class="navigation">
+        <li class="menu"><a class="hamburger" href="#">&#9776; Menu</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="/lesson6/preston-6.html">Preston</a></li>
+        <li><a href="#">Soda Springs</a></li>
+        <li><a href="#">Fish Haven</a></li>
+        <li><a href="#">Storm Center</a></li>
+        <li><a class="active" href="./gallery-7.html">Gallery</a></li>
+      </ul>
+    </nav>
+    <main>
+     <h1>Weather Gallery</h1>
+     <div class="container">
+        
+        <div class="images">
+            <img src="./images/placeholder_250x250.png" data-src="https://picsum.photos/id/599/250/250"
+                 alt="first image"/> 
+                 <div><p>Fog</p></div>
+        </div>
+        <div class="images">
+            <img src="./images/placeholder_250x250.png" data-src="https://picsum.photos/id/1019/250/250"
+                 alt="second image"/>
+                 <div><p>Storm</p></div>
+        </div>
+        <div class="images"> 
+            <img src="./images/placeholder_250x250.png" data-src="https://picsum.photos/id/421/250/250"
+                 alt="third image"/> 
+                 <div><p>Wind</p></div>
+        </div>
+        <div class="images"> 
+            <img src="./images/placeholder_250x250.png" data-src="https://picsum.photos/id/1036/250/250"
+                 alt="fourth image"/>
+                 <div><p>Snow</p></div>
+        </div>
+        <div class="images"> 
+            <img src="./images/placeholder_250x250.png" data-src="https://picsum.photos/id/703/250/250"
+                 alt="fifth image"/> 
+                 <div><p>Rainbow</p></div>
+        </div>
+        <div class="images"> 
+            <img src="./images/placeholder_250x250.png" data-src="https://picsum.photos/id/994/250/250"
+                 alt="sixth image"/>
+                 <div><p>Calm</p></div>
+        </div>
+        <div class="images"> 
+          <img src="./images/placeholder_250x250.png" data-src="https://picsum.photos/id/1021/250/250"
+               alt="sixth image"/>
+               <div><p>Fog2</p></div>
+        </div>
+        <div class="images"> 
+          <img src="./images/placeholder_250x250.png" data-src="https://picsum.photos/id/1035/250/250"
+               alt="sixth image"/>
+               <div><p>Rainbow2</p></div>
+        </div>
+        <div class="images"> 
+          <img src="./images/placeholder_250x250.png" data-src="https://picsum.photos/id/1050/250/250"
+               alt="sixth image"/>
+               <div><p>Cloudy</p></div>
+        </div>
+      </div>
+      </main>
+    <footer>
+        <p>
+        &copy; WEATHER.GO | Sofia Aleinikova <br/>
+            <span id = "lastUpdated"></span>
+        </p>
+    </footer>
+    <script src="./js/currentdate.js"></script>
+    <script src="./js/nav.js" ></script>
+    <script src="./js/banner.js" ></script>
+    <script src="./js/windchill.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="./js/webfontload.js"></script>
+    <script src="./lazyload.js"></script>
+ </body>
+</html>

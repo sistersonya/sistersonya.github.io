@@ -1,0 +1,125 @@
+
+body {
+	font-size: 16px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #C4FDE4;
+    padding: 1em;
+  	display: flex;
+  	align-items: center;
+    justify-content: center;
+    font-size: 0.9em;
+ }
+
+header img {
+    width: 50px;
+    height: auto;
+  }
+.headings {
+    display: flex;
+    flex-direction: column;
+  }
+  
+.headings h1 {
+    margin: 0 0 0 20px;
+    font-family: 'Aclonica', sans-serif;
+  }
+
+.motto {
+    letter-spacing: 1pt;
+    margin-left: 25px;
+    font-size: 0.7rem;
+  }
+
+/*----- Navigation -----*/
+nav {
+    margin: 0 auto;
+    background-color: #36454f;
+  }
+  
+.navigation {
+    list-style: none;
+    padding: 0em;
+    margin-top: 0em;
+    font-size: 1em;
+  }
+  
+.navigation li:first-child {
+    display: block;
+  }
+  
+.navigation li {
+    display: none;
+  }
+.navigation a {
+    display: block;
+    padding: 0.75rem;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
+  }
+  
+.navigation a:hover {
+    color: white;
+    background-color: #536a79;
+  }
+
+.navigation .active {
+    color: #ffff90;
+  }
+
+.responsive li {
+    display: block;
+  }
+  
+/*  ------ main ------- */
+/* example from https://codepen.io/martijndevalk/pen/EFCLz */
+
+main h1{
+  margin-left: 80px;
+}
+.container {
+  max-width: 920px;
+  margin: 10px 10px 20px 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.images {
+  padding: 15px 15px 15px 15px;
+  display: inline-block;
+  text-align: center;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, .3);  
+}
+
+ .images :hover {
+    box-shadow: 4px 4px 20px #888888;
+}
+
+.images img[data-src] {
+  filter: blur(0.2em);
+}
+
+.images img {
+  filter: blur(0em);
+  transition: filter 0.5s;
+  width: 100%;
+  height: auto;
+}
+
+/* ------ FOOTER ------- */
+footer {
+    background-color: #C4FDE4;
+    font-size: 0.8em;
+    text-align: center;
+    padding: 1em;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+  }
+  
