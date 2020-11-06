@@ -22,7 +22,20 @@
       display: block;
       font-size: 1.25em;
     }
+    main {
+      font-size: 1.2em;
+      max-width: 800px;
+    }
+    /*.weatherSummary {
+      position: absolute;
+      left: 35px;
+      top: 35px;
+    }
 
+    .article img {
+      float: right;
+      margin: 0px 15px 5px 15px;
+    }*/
 
     footer {
       font-size: 1em;
