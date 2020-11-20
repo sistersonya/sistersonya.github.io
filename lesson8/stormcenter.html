@@ -43,9 +43,7 @@
         <form method="get" action="thanks.html">
             <fieldset>
                 <legend>Applicant Information</legend>
-                <label class="top">First Name*<input type="text" minlength="2" name="fname" onkeypress="return /[a-z ]/i.test(event.key)" required></label>
-                <label class="top">Middle Name <input type="text" name="mname" onkeypress="return /[a-z ]/i.test(event.key)"></label>
-                <label class="top">Last Name* <input type="text" name="lname" onkeypress="return /[a-z ]/i.test(event.key)" required></label>
+                <label class="top">Full Name*<input type="text" minlength="5" name="fname" onkeypress="return /[a-z ]/i.test(event.key)" required></label>
                 <label class="top">Email <input type="email" name="email" placeholder="someone@gmail.com"></label>
                 <label class="top">Phone*<input type="tel" name="phone" placeholder="1235551234" onkeypress="return /[0-9 -]/i.test(event.key)" required></label>
                 <label class="top">Zip Code*<input type="number" name="zipcode" placeholder="12345" onkeypress="return /[0-9 -]/i.test(event.key)" required></label>
