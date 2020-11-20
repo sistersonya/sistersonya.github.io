@@ -42,8 +42,12 @@
     /* Town Data */
     .townData div{
       display: flex;
+      align-items: center;
       flex-direction: row;
       width: auto;
+    }
+    .townData h3 {
+      text-align: center;
     }
   
     .townData div:nth-child(odd) {
@@ -56,9 +60,8 @@
     }
 
     .townData div img {
-      width: 100%;
-      height: auto;
-      margin: 0 auto;
+      margin: 5px;
+      width: 65%;
     }
   
     footer {

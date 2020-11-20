@@ -119,7 +119,6 @@ main img {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 20px;
-  justify-content: center;
   margin-bottom: 20px;
 }
 
@@ -132,13 +131,17 @@ main img {
 }
 
 .townData div {
+  display: grid;
+  grid-template-columns: 1fr;
   background-color: #eee;
-  padding: 1em 1em;
+  padding: 1em 1em 1em 1em;
+  margin: 0em;
+  
   /*display: flex;
   flex-direction: column;*/
 }
 
-.townData img {
+.townData div img {
   width: 100%;
   height: auto;
   margin: 0 auto;
@@ -146,6 +149,11 @@ main img {
   box-shadow: 0 0 1em;
   border: 5px white;
   border-style: solid;
+}
+
+.townData div div {
+  max-width: 100%;
+  margin: 0;
 }
 
 /* ------------------------ */
