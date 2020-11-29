@@ -35,11 +35,21 @@
     }
 
     #preston img,
-    #home img {
+    #home img,
+    #ssprings img,
+    #fhaven img {
       float: right;
       margin: 0px 20px 15px 15px;
     }
   
+    .upcomingEvents {
+      max-width: 460px;
+    }
+  
+    .upcomingEvents div {
+      font-size: 1em;
+    }
+
     /* Town Data */
     .townData div{
       display: flex;

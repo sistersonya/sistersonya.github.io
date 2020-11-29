@@ -10,16 +10,20 @@ const SSforecast = "https://api.openweathermap.org/data/2.5/forecast?id=5607916&
 let currentTown = document.querySelector("#town-page").innerHTML;
 let wetherAPI = "";
 let forecastAPI = "";
+let town = "";
 
 if (currentTown == "Fish Haven") {
     wetherAPI = FHweather;
     forecastAPI = FHforecast;
-} else if (currentTown == "Preston Idaho") {
+    town = currentTown;
+} else if (currentTown == "Preston") {
     wetherAPI = PRweather;
     forecastAPI = PRforecast;
+    town = currentTown;
 } else if (currentTown == "Soda Springs") {
     wetherAPI = SSweather;
     forecastAPI = SSforecast;
+    town = currentTown;
 };
 
 fetch(wetherAPI)
@@ -65,9 +69,20 @@ fetch(forecastAPI)
 
 
 fetch('https://byui-cit230.github.io/weather/data/towndata.json')
-    .then((response) => response.json())
-    .then((jsObject) => {
-        document.getElementById('eventP0').textContent = jsObject.towns[4].events[0];
-        document.getElementById('eventP1').textContent = jsObject.towns[4].events[1];
-        document.getElementById('eventP2').textContent = jsObject.towns[4].events[2];
-    });
+.then(function (response) {
+  return response.json();
+})
+.then(function (jsonObject) {
+  let towns = jsonObject["towns"];
+  let uniqueTown = towns.filter(i => (i.name == town));
+  
+  let list = document.createElement("ul"); 
+  
+  let townEvents = uniqueTown[0].events;
+    townEvents.forEach(detail => {
+    let listItem = document.createElement("li");
+    listItem.innerHTML = detail;
+    list.appendChild(listItem);
+  }); 
+  document.querySelector("section.upcomingEvents").appendChild(list);
+});
