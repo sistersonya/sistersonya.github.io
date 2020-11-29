@@ -63,8 +63,8 @@ fetch(forecastAPI)
                 });
     });
 
-const apiUrlPreston = 'https://byui-cit230.github.io/weather/data/towndata.json'
-fetch(apiUrlPreston)
+    
+fetch('https://byui-cit230.github.io/weather/data/towndata.json')
     .then((response) => response.json())
     .then((jsObject) => {
         document.getElementById('eventP0').textContent = jsObject.towns[4].events[0];
