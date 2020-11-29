@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>WEATHER.GO</title>
+    <meta name="description" content="The Weather Site Project by Sofia
+    Aleinikova Fall 2020 WDD 230 Web Frontend Development"/>
+    <link rel="shortcut icon" href="./images/favicon.ico"> 
+    <link href="/css/normalize.css" rel="stylesheet" />
+    <link href="./css/small.css" rel="stylesheet" />
+    <link href="./css/medium.css" rel="stylesheet" />
+    <link href="./css/large.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Roboto&display=swap" rel="stylesheet" >
+  </head>
+  <body>
+    <header>
+      <picture
+        ><img src="./images/image_logo1.png" alt="logo"
+      /></picture>
+      <section class="headings">
+        <h1>WEATHER.GO</h1>
+        <div class="motto">Get Ready For a New Day. </div>
+      </section>
+    </header>
+    <nav>
+      <ul class="navigation">
+        <li class="menu"><a class="hamburger" href="#">&#9776; Menu</a></li>
+        <li><a class="active" href="./index.html">Home</a></li>
+        <li><a href="./preston.html">Preston</a></li>
+        <li><a href="./sodasprings.html">Soda Springs</a></li>
+        <li><a href="./fishhaven.html">Fish Haven</a></li>
+        <li><a href="./stormcenter.html">Storm Center</a></li>
+        <li><a href="./gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+    <main>
+      <h1>Check Your Weather Today</h1>
+        <section class="hero_home">
+          <picture id="hero_home_img">
+            <source srcset="./images/image_home_400.jpg" media="(max-width: 400px)" />
+            <source srcset="./images/image_home_800.jpg" media="(max-width: 800px)" />
+            <source srcset="./images/image_home_1100.jpg" media="(max-width: 1100px)" />
+            <img src="./images/image_home_original.jpg" alt="Mountains and lake view"/>
+          </picture>
+        </section>
+
+        <article id="home">
+          <h2>What Climate Change Means for Idaho</h2>
+          <h4>by the U.S. Global Change Research Program</h4>
+          <img src="./images/article_image_home.png" alt="Map of the US and its Temprature Change">
+          <p> Idaho’s climate is changing. Over the past century,
+            most of the state has warmed one to two degrees (F).
+            Snowpack is melting earlier in the year, and the flow of
+            meltwater into streams during summer is declining. In
+            the coming decades, streams will be warmer, populations of 
+            several fish species may decline, wildfires may
+            be more common, deserts may expand, and water may
+            be less available for irrigation.
+            Our climate is changing because the earth is warming.
+            People have increased the amount of carbon dioxide
+            in the air by 40 percent since the late 1700s. Other
+            heat-trapping greenhouse gases are also increasing.
+            These gases have warmed the surface and lower
+            atmosphere of our planet about one degree during the
+            last 50 years. Evaporation increases as the atmosphere
+            warms, which increases humidity, average rainfall, and
+            the frequency of heavy rainstorms in many places—but
+            contributes to drought in others.
+            Greenhouse gases are also changing the world’s oceans
+            and ice cover. Carbon dioxide reacts with water to form
+            carbonic acid, so the oceans are becoming more acidic.
+            The surface of the ocean has warmed about one degree
+            during the last 80 years. Warming is causing snow to
+            melt earlier in spring.
+          </p><br>
+          <p><a href ="https://19january2017snapshot.epa.gov/sites/production/files/2016-09/documents/climate-change-id.pdf">To learn more...</a></p>
+        </article>
+        
+        <div class="townData"></div>
+
+        <section class="contact">
+          <div class="contactInfo">
+           <img src="./images/rsz_map.jpg" alt="Map of Idaho Locations">
+           </div>  
+           <div class="contactText">
+           <h2>Contact Information</h2> <br>
+             <p> 
+             WEATHER.GO <br>
+             30 N 1st E Preston, ID 83263<br> 
+             &#9742; 999.999.9999<br> 
+             &#9993; weathergo@icloud.com<br>
+             </p><br>
+            <a href = "https://www.facebook.com">
+            <img src= "./images/sFacebook.png" alt="Facebook Icon"></a>
+            <a href = "https://www.pintrest.com">
+            <img src= "./images/sPinterest.png" alt="Pintrest Icon"></a>
+            <a href = "https://www.twitter.com">
+            <img src= "./images/sTwitter.png" alt="Twitter Icon"></a>
+            <a href = "https://www.whatsapp.com">
+            <img src= "./images/sWhatsapp.png" alt="WhatsApp Icon"></a>
+          </div>
+        </section>
+      </main>
+    <footer>
+        <p>
+        &copy; WEATHER.GO | Sofia Aleinikova <br/>
+            <span id = "lastUpdated"></span>
+        </p>
+    </footer>
+    <script src="./js/currentdate1.js"></script>
+    <script src="./js/nav.js" ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="./js/webfontload.js"></script>
+    <script src="./js/hometowns.js"></script>
+ </body>
+</html>

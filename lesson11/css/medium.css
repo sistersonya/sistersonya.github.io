@@ -1,0 +1,69 @@
+@media only screen and (min-width: 30.5em) {
+    header {
+        font-size: 1.35em;
+      }
+    
+    header img {
+        width: 75px;
+        height: auto;
+      }
+    
+    .headings h1 {
+        margin: 0 0 0 30px;
+      }
+    
+    .motto {
+        letter-spacing: 1.5pt;
+        margin-left: 37.5px;
+        font-size: .9rem;
+      }
+
+    .navigation {
+      display: block;
+      font-size: 1.25em;
+    }
+
+    main {
+      font-size: 1.2em;
+      max-width: 800px;
+    }
+
+    .weatherSummary {
+      position: absolute;
+      left: 35px;
+      top: 35px;
+    }
+
+    #preston img,
+    #home img {
+      float: right;
+      margin: 0px 20px 15px 15px;
+    }
+  
+    /* Town Data */
+    .townData div{
+      display: flex;
+      /* align-items: center; */
+      flex-direction: row;
+      width: auto;
+    }
+  
+    .townData div:nth-child(odd) {
+      flex-direction: row-reverse;
+    }
+    .townData div div:first-of-type {
+      display: flex;
+      flex-direction: column;
+      width: auto;
+    }
+
+    .townData div img {
+      margin: 5px;
+      width: 65%;
+    }
+
+    footer {
+      font-size: 1em;
+    }
+  }
+  

@@ -1,0 +1,62 @@
+@media only screen and (min-width: 61em) {
+    .navigation {
+        display: flex;
+        font-size: 1.35em;
+      }
+    .navigation li:first-child {
+        display: none;
+      }
+
+    .navigation li {
+        display: block; 
+        flex: 1 1 auto;
+    }
+
+    header img {
+        width: 100px;
+        height: auto;
+      }
+      
+    main {
+        font-size: 1.3em;
+        max-width: 990px;
+      }
+
+      form label.sbs {
+        padding: .4rem 0;
+    }
+
+    .images :hover {
+      box-shadow: 4px 4px 20px #888888;
+  }
+
+   /* Town Data*/
+   .townData {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 12px;
+  }
+  
+.townData div {
+    display: grid;
+    grid-template-rows: 1fr;
+    padding: 1em 1.5em 1em 1em;
+  }
+
+.townData div div {
+    width: 100%;
+  }
+
+.townData div div:first-of-type {
+    width: auto;
+  }
+
+.townData div img {
+    width: 100%;
+    padding: 0%;
+  }
+
+    footer {
+      max-width: 1100px;
+    }
+}
