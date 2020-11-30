@@ -51,11 +51,12 @@
     }
 
     /* Town Data */
+  
     .townData div{
-      display: flex;
-      /* align-items: center; */
+      display: flex;        
       flex-direction: row;
-      width: auto;
+      justify-content: space-between;
+      align-items: center;
     }
   
     .townData div:nth-child(odd) {
@@ -72,6 +73,13 @@
       width: 65%;
     }
 
+    div.townData div h2,
+    div.townData div h3,
+    div.townData div p {
+      text-align: center;
+      position: relative;
+    }
+  
     footer {
       font-size: 1em;
     }

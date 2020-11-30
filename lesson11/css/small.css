@@ -191,8 +191,6 @@ article p {
   grid-template-columns: 1fr;
   background-color: #eee;
   padding: 1em 1em 1em 1em;
-  /*display: flex;
-  flex-direction: column;*/
 }
 
 .townData div img {
