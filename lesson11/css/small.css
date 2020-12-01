@@ -169,7 +169,7 @@ article p {
   font-size: .9em;
 }
 
-/* TOWN DATA */
+/*------ Town Data ------*/
 
 .townData {
   display: grid;
@@ -206,6 +206,7 @@ article p {
 .townData div div {
   max-width: 100%;
   margin-top: 10px;
+  text-align: center;
 }
 
 /* ---------- Weather Summary -------------- */
@@ -226,7 +227,7 @@ article p {
   border-bottom-width: 1px;
   margin: 5px 0px 15px 0px;
 }
-  
+
 .stats tr td:nth-child(1) {
   text-align: right;
   padding-right: 0.1em;
