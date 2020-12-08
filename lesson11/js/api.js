@@ -1,11 +1,11 @@
-const FHweather = "https://api.openweathermap.org/data/2.5/weather?lat=42.0380399&lon=-111.4048681&appid=91a14b3e44979104098259be0b0f8f5c&units=imperial";
-const FHforecast = "https://api.openweathermap.org/data/2.5/forecast?lat=42.0380399&lon=-111.4048681&appid=91a14b3e44979104098259be0b0f8f5c&units=imperial";
+const FHweather = "https://api.openweathermap.org/data/2.5/weather?lat=42.0380399&lon=-111.4048681&appid=be14a1ff53702fd2e9589f95f2b6719e&units=imperial";
+const FHforecast = "https://api.openweathermap.org/data/2.5/forecast?lat=42.0380399&lon=-111.4048681&appid=be14a1ff53702fd2e9589f95f2b6719e&units=imperial";
 
-const PRweather = "https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=91a14b3e44979104098259be0b0f8f5c&units=imperial";
-const PRforecast = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=91a14b3e44979104098259be0b0f8f5c&units=imperial";
+const PRweather = "https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=be14a1ff53702fd2e9589f95f2b6719e&units=imperial";
+const PRforecast = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=be14a1ff53702fd2e9589f95f2b6719e&units=imperial";
 
-const SSweather = "https://api.openweathermap.org/data/2.5/weather?id=5607916&appid=91a14b3e44979104098259be0b0f8f5c&units=imperial";
-const SSforecast = "https://api.openweathermap.org/data/2.5/forecast?id=5607916&appid=91a14b3e44979104098259be0b0f8f5c&units=imperial";
+const SSweather = "https://api.openweathermap.org/data/2.5/weather?id=5607916&appid=be14a1ff53702fd2e9589f95f2b6719e&units=imperial";
+const SSforecast = "https://api.openweathermap.org/data/2.5/forecast?id=5607916&appid=be14a1ff53702fd2e9589f95f2b6719e&units=imperial";
 
 let currentTown = document.querySelector("#town-page").innerHTML;
 let wetherAPI = "";
