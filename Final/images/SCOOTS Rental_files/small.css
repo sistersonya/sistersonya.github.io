@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+	font-size: 16px;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+}
+header {
+    background-color: #e9c46a;
+    color: #264653;
+    padding: 1em 1em 0 1em;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+ }
+
+ header img {
+     margin: 10px 0px 0px 10px;
+ }
+ nav {
+    width: 100%;
+    background-color: #e9c46a;
+}
+ .heading {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+ }
+ .heading h1 {
+     margin: 20px 0px 5px 5px;
+ }
+
+ .motto {
+     margin-left: 10px;
+ }
+
+ul.navigation {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1em;
+}
+ul.navigation li:first-child {
+    display: block;
+}
+ul.navigation li {
+    display: none;
+}
+ul.navigation a {
+    display: block;
+    color: #264653;
+    padding: 1rem;
+    text-align: center;
+}
+ul.navigation a:hover {
+    color: #2a9d8f;
+}
+ul.navigation .active {
+    color: #2a9d8f;
+}
+ul.responsive li {
+    display: block;
+  }
+
+/*----- MAIN -----*/
+
+.boxes {
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr 1fr;
+    max-width: 960px;
+    margin: 57px 15px 15px 15px;
+    
+}
+.boxes div {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+
+}
+.info {
+    grid-column: 1 / 2;
+    width: ;
+}
+.hero_home {
+    grid-column: 2 / 2;
+}
+

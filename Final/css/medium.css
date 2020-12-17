@@ -1,0 +1,65 @@
+@media only screen and (min-width: 800px) {
+
+    ul.navigation {
+        display: flex;
+        font-size: 1.10em;
+        justify-content: flex-end;
+      }
+      ul.navigation li:first-child {
+        display: none;
+    }
+    ul.navigation li {
+        display: block;
+        padding: 0;
+    }
+    
+    .heading h1 {
+        margin: 20px 0px 5px 5px;
+        font-size: 33px;
+    }
+    .motto {
+        display: initial;
+        margin-left: 10px;
+    }
+    div.hero_home img {
+        width: 100%;
+    }
+    .weatherAPI {
+        font-size: larger;
+    }
+    
+    .forecast h2 {
+        margin-top: 0;
+    }
+    .forecast {
+        padding-top: 0.5em;
+    }
+    .gallery img {
+        width: 100%;
+    }
+    .cards {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+    .cards h4 {
+        font-size: 1.5em; 
+    }
+    .cards p {
+        font-size: 1.1em; 
+    } 
+    form legend {
+        font-size: 18px;
+    }
+
+    .tourGallery {
+        grid-template-columns: repeat(2, 1fr); 
+        margin: 10px 25px 15px 25px;
+    }
+    .tourGallery img {
+        width: 100%;
+        padding: 0.5em;
+    }
+
+    footer {
+        font-size: 1.1em;
+      }
+}

@@ -1,0 +1,17 @@
+@media only screen and (min-width: 800px) {
+
+    nav {
+        float: right;
+    }
+    ul.navigation {
+        display: flex;
+        font-size: 1.10em;
+        justify-content: flex-end;
+      }
+      ul.navigation li:first-child {
+        display: none;
+    }
+    ul.navigation li {
+        display: block;
+    }
+}

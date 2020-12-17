@@ -1,0 +1,111 @@
+{
+    "rentals": [
+        {   "typenumber": 1,
+            "rentalType": "Honda Metropolitan (49cc)",
+            "photo": "./images/rsz_honda_metropolitan.jpg",
+            "maxPersons": 1,
+            "reservation": [ 
+                {
+                  "threeHours": "$20",
+                  "fullDay": "$30"
+                }
+            ],
+            "walkIn": [
+                {
+                  "threeHours": "$25",
+                  "fullDay": "$35"
+                }
+            ]
+        },
+        {   
+            "typenumber": 2,
+            "rentalType": "Honda Dio (110cc)",
+            "photo": "./images/rsz_honda_dio110.jpg",
+            "maxPersons": 2,
+            "reservation": [ 
+                {
+                  "threeHours": "$30",
+                  "fullDay": "$40"
+                }
+            ],
+            "walkIn": [
+                {
+                  "threeHours": "$35",
+                  "fullDay": "$45"
+                }
+            ]
+        },
+
+        {   "typenumber": 3,
+            "rentalType": "Honda PCX150 (149cc)",
+            "photo": "./images/rsz_honda_pcx150.jpg",
+            "maxPersons": 2,
+            "reservation": [ 
+                {
+                  "threeHours": "$40",
+                  "fullDay": "$50"
+                }
+            ],
+            "walkIn": [
+                {
+                  "threeHours": "$45",
+                  "fullDay": "$55"
+                }
+            ]
+        },
+
+        {   "typenumber": 4,
+            "rentalType": "Honda Pioneer 1000",
+            "photo": "./images/rsz_honda_pioneer.jpg",
+            "maxPersons": 4,
+            "reservation": [ 
+                {
+                  "threeHours": "$50",
+                  "fullDay": "$70"
+                }
+            ],
+            "walkIn": [
+                {
+                  "threeHours": "$60",
+                  "fullDay": "$80"
+                }
+            ]
+        },
+
+        {   "typenumber": 5,
+            "rentalType": "4-door Jeep Wrangler - manual with A/C",
+            "photo": "./images/rsz_four_door_jeep.jpg",
+            "maxPersons": 5,
+            "reservation": [ 
+                {
+                  "threeHours": "$70",
+                  "fullDay": "$100"
+                }
+            ],
+            "walkIn": [
+                {
+                  "threeHours": "$85",
+                  "fullDay": "$125"
+                }
+            ]
+        },
+
+        {   "typenumber": 6,
+            "rentalType": "2-door Jeep Wrangler - open air - manual",
+            "photo": "./images/rsz_two_door_jeep.jpg",
+            "maxPersons": 4,
+            "reservation": [ 
+                {
+                  "threeHours": "$60",
+                  "fullDay": "$85"
+                }
+            ],
+            "walkIn": [
+                {
+                  "threeHours": "$70",
+                  "fullDay": "$90"
+                }
+            ]
+        }
+    ]
+}

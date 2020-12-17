@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SCOOTS Rental</title>
+    <meta name="description" content="Final Project by Sofia Aleinikova in WDD 230: Web 
+                                      Frontend Development at Brigham Young University - Idaho">
+    <link rel="shortcut icon" href="./images/favicon_io/favicon-32x32.png">                                 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@300;400;500&display=swap">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/small.css">
+    <link rel="stylesheet" href="./css/medium.css">
+    <link rel="stylesheet" href="./css/large.css">
+</head>
+
+<body>
+    <header>
+        <picture><img src="./images/logo264x64.png" alt="logo"/></picture>
+        <section class="heading">
+        <h1>SCOOTS rental</h1>
+        <div class="motto">Let Us Help You </div>
+        </section>
+    </header>
+    <nav>
+        <ul class="navigation">
+          <li><a class="hamburger" href="#">&#9776; MENU</a></li>
+          <li><a href="./home.html">HOME</a></li>
+          <li><a href="./rentals.html">RENTALS</a></li>
+          <li><a class="active" href="./reservations.html">RESERVATIONS</a></li>
+          <li><a href="./tours.html">TOURS</a></li>
+          <li><a href="./contact.html">CONTACT</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="reservation">
+         <div class="rentalsSummary">
+            <h3>Rental Agreement</h3>
+            <ul>
+                <li>A $50 security deposit is required to confirm reservations.</li>
+                <li>A valid drivers license is required in hand at time of rental.</li>
+                <li>No one under 12 years of age are allowed to ride on the scooters.</li>
+                <li>Fuel charge not included.</li>
+                <li>Unlimited mileage.</li>
+                <li>Liability insurance is free of charge.</li>
+                <li>Reservations rate requires 24 hour prior notification.</li>
+                <li>Free delivery to Cozumel hotel, Airbnb, or private residence for 2+ day rentals.</li>
+                <li>Payment via Google Pay, cash, credit card, debit card, or PayPal.</li>
+                <li>Rentals may be returned to either location.</li>
+            </ul>
+        </div>
+        <div>
+            <form method="get" action="thankyou.html">
+                <fieldset>
+                    <legend>Your Contact Information</legend>
+                    <label class="top">First Name* <input type="text" minlength="5" name="fname" pattern= "[A-Za-z ]{5,}" required></label>
+                    <label class="top">Last Name* <input type="text" name="lname" required></label>
+                    <label class="top">Email <input type="email" name="email" placeholder="your@email.please"></label>
+                    <label class="top">Phone* <input type="tel" name="phone" placeholder="1235551234" pattern = "[0-9]{10,}" required></label>
+                    <label class="top">Home State or Country* <input type="text" name="state" placeholder="UT or INDIA" required></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Reservation Information</legend>
+                    <label class="top">Today's Date: <input type="date" name="complitionDate"></label>
+                    <label class="top">Start Date/ Check In: <input type="date" name="startDate"></label>
+                    <label class="top">End Date/ Check Out: <input type="date" name="endDate"></label>
+                    <label class="top">Choose Rental Type From the List:
+                        <datalist id="rentalType">
+                            <option value="Rental Type #1 Honda Metro Scooter">
+                            <option value="Rental Type #2 Honda Dio Scooter">
+                            <option value="Rental Type #3 Honda PCX150 Scooter">
+                            <option value="Rental Type #4 Honda Pioneer ATV">
+                            <option value="Rental Type #5 Jeep Wrangler - 4 door with a/c">
+                            <option value="Rental Type #6 Jeep Wrangler - 2 door">
+                        </datalist>
+                        <input list="rentalType" name="rentalType" placeholder="Click for options..."></label>
+                    <label class="top">Cruise Line:
+                        <select name="stormRegion">
+                            <option selected="" disabled="">[OPTIONAL] Please Select &#9662;</option>
+                            <option value="cruise1">Western Caribbean From Mobile, AL</option>
+                            <option value="cruise2">Western Caribbean From Tampa, FL</option>
+                            <option value="cruise3">Western Caribbean From Miami, FL</option>
+                            <option value="cruise1">Western Caribbean From Mobile, AL</option>
+                            <option value="cruise1">Western Caribbean From New Orleans, AL</option>
+                            <option value="cruise1">Western Caribbean From Galveston, TX</option>
+                        </select>
+                    </label>
+                    <div class="top">Need a drop-off?</div>
+                    <label class="sbs"> <input type="radio" name="user-in-danger-level" value="yes">&nbsp;Yes</label>
+                    <label class="sbs"> <input type="radio" name="user-in-danger-level" value="maybe">&nbsp;Maybe</label>
+                    <label class="sbs"> <input type="radio" name="user-in-danger-level" value="no">&nbsp;No</label>
+                    <label class="top">Additional Information or Comments<br><textarea
+                            name="extraInformation"></textarea></label>
+                </fieldset>
+                <input type="submit" value="Book Now!" class="submitBtn">
+            </form>
+         </div>
+      </section>
+      <section class="contact">
+         <div class="contactText">
+          <h2>Contact Information</h2>
+            <p>SOOTS rentals</p>
+            <p>&#128205; Carretera Costera Sur, <br>77888 San Miguel de Cozumel, <br>Q.R., Mexico</p>
+            <p>&#128222; +52 900.922.1100</p>
+            <p>&#128233; scootsrental@icloud.com</p>
+         </div>
+         <div class="followUs">
+           <h2>Follow Us On Social Media</h2>
+          <p><a href = "https://www.facebook.com">
+          <img src= "./images/sFacebook.png" alt="Facebook Icon"></a> @ScootsRentalFB</p>
+          <p><a href = "https://www.pinterest.com">
+          <img src= "./images/sPinterest.png" alt="Pintrest Icon"></a> @ScootsRentalPN</p>
+          <p><a href = "https://www.twitter.com">
+          <img src= "./images/sTwitter.png" alt="Twitter Icon"></a> @ScootsRentalTW</p>
+          <p><a href = "https://www.whatsapp.com">
+          <img src= "./images/sWhatsapp.png" alt="WhatsApp Icon"></a> @ScootsRentalWA</p>
+        </div>
+      </section>
+    </main>
+  <footer>
+      <p>
+      &copy; SCOOTS rental | All rights reserved |
+          <span id = "lastUpdated"></span>
+      </p>
+  </footer>
+  <script src="./js/currentdate1.js"></script>
+  <script src="./js/nav.js" ></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  <script src="./js/webfontload.js"></script>
+</body>
+</html>

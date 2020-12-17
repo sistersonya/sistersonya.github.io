@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SCOOTS Rental</title>
+    <meta name="description" content="Final Project by Sofia Aleinikova in WDD 230: Web 
+                                      Frontend Development at Brigham Young University - Idaho">
+    <link rel="shortcut icon" href="./images/favicon_io/favicon-32x32.png">                                 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@300;400;500&display=swap">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/small.css">
+    <link rel="stylesheet" href="./css/medium.css">
+    <link rel="stylesheet" href="./css/large.css">
+</head>
+
+<body>
+    <header>
+        <picture><img src="./images/logo264x64.png" alt="logo"/></picture>
+        <section class="heading">
+        <h1>SCOOTS rental</h1>
+        <div class="motto">Let Us Help You </div>
+        </section>
+    </header>
+    <nav>
+        <ul class="navigation">
+          <li><a class="hamburger" href="#">&#9776; MENU</a></li>
+          <li><a class="active" href="./home.html">HOME</a></li>
+          <li><a href="./rentals.html">RENTALS</a></li>
+          <li><a href="./reservations.html">RESERVATIONS</a></li>
+          <li><a href="./tours.html">TOURS</a></li>
+          <li><a href="./contact.html">CONTACT</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="boxes">
+           <div class="info">
+              <h2>To Explore The Beauty of Cozumel Became Easier With</h2>
+                  <p style="color:#2a9d8f; font-size: 30px;">SCOOTS rental</p> 
+              <p style= "font-size: 25px; font-weight: bold;"> Make Your Reservation Today! </p>
+              <div class="reserveBtn"><a class="button1" href="./reservations.html">Book Now</a></div>
+
+              <section class="map">
+                <p> You can find us at the following location</p>
+                <p> &#128205; Carretera Costera Sur, 77888 San Miguel de Cozumel, Q.R., Mexico</p>
+                <picture><img src="./images/map_coz.jpg" alt="map"/></picture>
+                <p> Call Us Now If You Have Any Questions </p>
+                <p> &#128222; +52 900.922.1100 </p>
+              </section>
+              <section class="forecast">
+                <h2>3-Day Forecast</h2>
+                <table class="tableF">
+                  <tr>
+                    <th><span class="threeDayForecast" id="day1"></span></th>
+                    <th><span class="threeDayForecast" id="day2"></span></th>
+                    <th><span class="threeDayForecast" id="day3"></span></th>
+                  </tr>
+                  <tr>
+                    <td>
+                        <img id="icon1" src="./images/spacer.png" alt="spacer"/><br/>
+                        <h4><span id=temp1></span>&#176; F</h4>
+                    </td>
+                    <td>
+                      <img id="icon2" src="./images/spacer.png" alt="spacer" /><br/>
+                      <h4><span id=temp2></span>&#176; F</h4>
+                    </td>
+                    <td>
+                      <img id="icon3" src="./images/spacer.png" alt="spacer" /><br/>
+                      <h4><span id=temp3></span>&#176; F</h4>
+                    </td>
+                  </tr>
+                </table>
+              </section>
+           </div>
+           <div class="hero_home">
+             <picture>
+              <source srcset="./images/heroimage_scooter_400.jpg" media="(max-height: 400px)" />
+              <source srcset="./images/heroimage_scooter_800.jpg" media="(max-height: 800px)" />
+              <source srcset="./images/heroimage_scooter_1100.jpg" media="(max-height: 1100px)" />
+              <img src="./images/heroimage_scooter_400.jpg" alt="Mountains and lake view"/>
+             </picture>
+             <section class="weatherAPI">
+              <h3>Weather Summary</h3>
+              <table class="stats">
+                <tr> <td>Currently:</td> <td><span id="condition"></span></td> </tr>
+                <tr> <td>Temp:</td> <td><span id="currenttemp"></span>&#x2109;</td> </tr>
+                <tr> <td>Humidity:</td> <td><span id="hum"></span>&#37;</td> </tr>
+                <tr> <td>Wind Speed:</td> <td><span id="speed"></span> mph</td> </tr>
+              </table>
+             </section>
+             <p id="under_hero">You Deserve The Best Experience</p> 
+           </div>
+        </section>
+      
+      <section class="gallery"> 
+       <h3> Choose Your Type</h3>
+        <div>
+        <figure>
+          <img src="./images/rsz_honda_metropolitan.jpg" alt="Honda Metropolitan"> 
+          <figcaption>Scooter</figcaption>
+        </figure>
+        <figure>
+          <img src="./images/rsz_honda_pioneer.jpg" alt="Honda Pioneer" >
+          <figcaption>ATV</figcaption>
+        </figure>
+        <figure>
+          <img src="./images/rsz_two_door_jeep.jpg" alt="2 door jeep">
+          <figcaption>SUV</figcaption>
+        </figure>
+      </div>
+        
+      </section>
+      <section class="contact">
+        
+         <div class="contactText">
+          <h2>Contact Information</h2>
+            <p>SOOTS rentals</p>
+            <p>&#128205; Carretera Costera Sur, <br>77888 San Miguel de Cozumel, <br>Q.R., Mexico</p>
+            <p>&#128222; +52 900.922.1100</p>
+            <p>&#128233; scootsrental@icloud.com</p>
+         </div>
+         <div class="followUs">
+           <h2>Follow Us On Social Media</h2>
+          <p><a href = "https://www.facebook.com">
+          <img src= "./images/sFacebook.png" alt="Facebook Icon"></a> @ScootsRentalFB</p>
+          <p><a href = "https://www.pinterest.com">
+          <img src= "./images/sPinterest.png" alt="Pintrest Icon"></a> @ScootsRentalPN</p>
+          <p><a href = "https://www.twitter.com">
+          <img src= "./images/sTwitter.png" alt="Twitter Icon"></a> @ScootsRentalTW</p>
+          <p><a href = "https://www.whatsapp.com">
+          <img src= "./images/sWhatsapp.png" alt="WhatsApp Icon"></a> @ScootsRentalWA</p>
+        </div>
+      </section>
+    </main>
+  <footer>
+      <p>
+      &copy; SCOOTS rental | All rights reserved |
+          <span id = "lastUpdated"></span>
+      </p>
+  </footer>
+  <script src="./js/api.js"></script>
+  <script src="./js/currentdate1.js"></script>
+  <script src="./js/nav.js" ></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  <script src="./js/webfontload.js"></script>
+</body>
+</html>

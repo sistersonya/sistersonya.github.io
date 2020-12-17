@@ -1,0 +1,49 @@
+@media only screen and (min-width: 980px) {
+    
+    ul.navigation {
+        display: flex; 
+        font-size: 1.30em;
+    }
+    ul.navigation li:first-child {
+        display: none;
+    }
+    ul.navigation li {
+        display: block;
+    }
+    .hero_home img {
+        display: inline;
+    }
+    .boxes {
+        flex-wrap: nowrap;
+        flex-direction: unset;
+    }
+    .weatherAPI {
+        position: absolute;
+        top: 140px;
+        left: 50%;
+        right: 0;
+    }   
+    .weatherAPI {
+        top: 180px;
+    }
+    .forecast h2 {
+        margin-top: 10px;
+    }
+    .cards {
+        grid-template-columns: repeat(3, 1fr);
+        
+    }
+
+    .tourGallery {
+        grid-template-columns: repeat(3, 1fr); }
+    
+}
+@media only screen and (min-width : 1210px) {
+    #under_hero {
+    display: none;
+}
+.cards {
+    margin-left: auto;
+    margin-right: auto;
+}
+      } 

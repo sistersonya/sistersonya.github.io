@@ -1,0 +1,13 @@
+@media only screen and (min-width: 960px) {
+
+    ul.navigation {
+        display: flex; 
+        font-size: 1.40em;
+    }
+    ul.navigation li:first-child {
+        display: none;
+    }
+    ul.navigation li {
+        display: block;
+    }
+}
